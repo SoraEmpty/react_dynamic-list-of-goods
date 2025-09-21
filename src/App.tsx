@@ -11,6 +11,7 @@ import { Good } from './types/Good';
 export const App: React.FC = () => {
   const [goods, setGoods] = useState<Good[]>([]);
   const [error, setError] = useState<string>('');
+
   return (
     <div className="App">
       <h1>Dynamic list of Goods</h1>
